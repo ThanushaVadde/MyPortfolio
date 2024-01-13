@@ -1,7 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion"
 import ResumeCard from "./ResumeCard";
-import ListExperienceFunc from './jobexperience';
 
 const Experience = () => {
   return (
@@ -20,19 +19,19 @@ const Experience = () => {
             title="Senior Systems Engineer"
             subTitle="INFOSYS - (2023 - Present)"
             result="HYD"
-            des= {<ListExperienceFunc/>}
+            des= "Developing dynamic and interactive UI components using ReactJS, Angular, HTML5, CSS3, and JavaScript. Deploying code using Jenkins and managing code repository in version control systems like Bitbucket for efficient code management. Integrating APIs and data sources using Postman to retrieve information."
           />
           <ResumeCard
             title="Systems Engineer"
             subTitle="INFOSYS - (2021 - 2023)"
             result="HYD"
-            des= ""
+            des= "Utilizing Solr for search functionality within applications. Monitoring application performance with Instana and implementing improvements based on insights. Leveraged Hippo CMS for content management and integration with the frontend. Implementing datalayer events on website to track user interactions and behavior."
           />
           <ResumeCard
             title="Systems Engineer Trainee"
             subTitle="INFOSYS - (2021)"
             result="HYD"
-            des= ""
+            des= "Utilizing SendGrid to create and execute targeted email campaigns for a variety of clients. Tracking project progress and managed tasks using Jira, ensuring on-time and high-quality deliverables. Working within an agile methodology, actively participating in sprints and daily stand-up meetings."
           />
           
         </div>
